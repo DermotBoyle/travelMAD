@@ -1,0 +1,57 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "8b2f4e2dc9acaff268be18a637e948a0db75527983541e2e72ae7feb84cab9f4"
+    }
+  ],
+  "containerPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Products",
+      "pchPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

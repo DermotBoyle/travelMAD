@@ -7,18 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5EFD94AF29D98C5600D4220C /* Weaver_Widget_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD94AE29D98C5600D4220C /* Weaver_Widget_DemoApp.swift */; };
+		5E14FF522A0A394900F73060 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14FF512A0A394900F73060 /* MapView.swift */; };
+		5E14FF542A0A44A400F73060 /* MapView_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14FF532A0A44A400F73060 /* MapView_ViewModel.swift */; };
+		5E14FF582A0FD68500F73060 /* Lines_ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14FF572A0FD68500F73060 /* Lines_ViewModel.swift */; };
+		5E14FF5A2A0FE09300F73060 /* NetworkUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14FF592A0FE09300F73060 /* NetworkUtils.swift */; };
+		5E14FF5F2A0FF59500F73060 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14FF5E2A0FF59500F73060 /* PersistenceController.swift */; };
+		5EBCE7BF2A0904FF00E6915C /* Color_EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBCE7BE2A0904FF00E6915C /* Color_EXT.swift */; };
+		5EBCE7C12A09186300E6915C /* Text_EXT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBCE7C02A09186200E6915C /* Text_EXT.swift */; };
 		5EFD94B129D98C5600D4220C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD94B029D98C5600D4220C /* ContentView.swift */; };
 		5EFD94B329D98C5800D4220C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFD94B229D98C5800D4220C /* Assets.xcassets */; };
 		5EFD94B629D98C5800D4220C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFD94B529D98C5800D4220C /* Preview Assets.xcassets */; };
+		5EFD94BD29D98D5700D4220C /* FetchEmtDataToken_Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD94BC29D98D5700D4220C /* FetchEmtDataToken_Protocol.swift */; };
+		5EFD94C129D9AD6700D4220C /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD94C029D9AD6700D4220C /* LocationService.swift */; };
+		5EFD94C329D9EE2700D4220C /* FetchNearestStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD94C229D9EE2700D4220C /* FetchNearestStop.swift */; };
+		5EFD94C529DA95E900D4220C /* NearestStopRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD94C429DA95E900D4220C /* NearestStopRow.swift */; };
+		5EFD952929DC001300D4220C /* BusStopDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD952829DC001300D4220C /* BusStopDetails.swift */; };
+		5EFD952B29DC023D00D4220C /* BusStopDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD952A29DC023D00D4220C /* BusStopDetailViewModel.swift */; };
+		5EFD952D29DC1AE200D4220C /* IntUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFD952C29DC1AE200D4220C /* IntUtils.swift */; };
+		5EFE01CA29E0A6B40085237D /* FavouriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE01C929E0A6B40085237D /* FavouriteView.swift */; };
+		5EFE01CC29E1D6BF0085237D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE01CB29E1D6BF0085237D /* MainView.swift */; };
+		5EFE01CE29E2FAF30085237D /* Lines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE01CD29E2FAF30085237D /* Lines.swift */; };
+		5EFE01D029E2FCAB0085237D /* AnimatedBusProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFE01CF29E2FCAB0085237D /* AnimatedBusProgress.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5EFD94E329DB3B2600D4220C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5E14FF512A0A394900F73060 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5E14FF532A0A44A400F73060 /* MapView_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView_ViewModel.swift; sourceTree = "<group>"; };
+		5E14FF572A0FD68500F73060 /* Lines_ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lines_ViewModel.swift; sourceTree = "<group>"; };
+		5E14FF592A0FE09300F73060 /* NetworkUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtils.swift; sourceTree = "<group>"; };
+		5E14FF5E2A0FF59500F73060 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		5EBCE7BE2A0904FF00E6915C /* Color_EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_EXT.swift; sourceTree = "<group>"; };
+		5EBCE7C02A09186200E6915C /* Text_EXT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_EXT.swift; sourceTree = "<group>"; };
 		5EFD94AB29D98C5600D4220C /* Weaver_Widget_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weaver_Widget_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EFD94AE29D98C5600D4220C /* Weaver_Widget_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weaver_Widget_DemoApp.swift; sourceTree = "<group>"; };
 		5EFD94B029D98C5600D4220C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5EFD94B229D98C5800D4220C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFD94B529D98C5800D4220C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EFD94BC29D98D5700D4220C /* FetchEmtDataToken_Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchEmtDataToken_Protocol.swift; sourceTree = "<group>"; };
+		5EFD94C029D9AD6700D4220C /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		5EFD94C229D9EE2700D4220C /* FetchNearestStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchNearestStop.swift; sourceTree = "<group>"; };
+		5EFD94C429DA95E900D4220C /* NearestStopRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearestStopRow.swift; sourceTree = "<group>"; };
+		5EFD94CC29DB3B2200D4220C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5EFD94CE29DB3B2200D4220C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5EFD951B29DB3DCD00D4220C /* MyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidgetBundle.swift; sourceTree = "<group>"; };
+		5EFD951D29DB3DCD00D4220C /* MyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWidget.swift; sourceTree = "<group>"; };
+		5EFD951F29DB3DD000D4220C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EFD952129DB3DD000D4220C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFD952829DC001300D4220C /* BusStopDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopDetails.swift; sourceTree = "<group>"; };
+		5EFD952A29DC023D00D4220C /* BusStopDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusStopDetailViewModel.swift; sourceTree = "<group>"; };
+		5EFD952C29DC1AE200D4220C /* IntUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntUtils.swift; sourceTree = "<group>"; };
+		5EFE01C929E0A6B40085237D /* FavouriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteView.swift; sourceTree = "<group>"; };
+		5EFE01CB29E1D6BF0085237D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		5EFE01CD29E2FAF30085237D /* Lines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lines.swift; sourceTree = "<group>"; };
+		5EFE01CF29E2FCAB0085237D /* AnimatedBusProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBusProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				5EFD94AD29D98C5600D4220C /* Weaver_Widget_Demo */,
+				5EFD951A29DB3DCD00D4220C /* MyWidget */,
+				5EFD94CB29DB3B2200D4220C /* Frameworks */,
 				5EFD94AC29D98C5600D4220C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,8 +106,25 @@
 		5EFD94AD29D98C5600D4220C /* Weaver_Widget_Demo */ = {
 			isa = PBXGroup;
 			children = (
-				5EFD94AE29D98C5600D4220C /* Weaver_Widget_DemoApp.swift */,
+				5EFE01CB29E1D6BF0085237D /* MainView.swift */,
 				5EFD94B029D98C5600D4220C /* ContentView.swift */,
+				5EFE01C929E0A6B40085237D /* FavouriteView.swift */,
+				5EBCE7C02A09186200E6915C /* Text_EXT.swift */,
+				5EFE01CD29E2FAF30085237D /* Lines.swift */,
+				5E14FF572A0FD68500F73060 /* Lines_ViewModel.swift */,
+				5E14FF5E2A0FF59500F73060 /* PersistenceController.swift */,
+				5E14FF512A0A394900F73060 /* MapView.swift */,
+				5E14FF592A0FE09300F73060 /* NetworkUtils.swift */,
+				5E14FF532A0A44A400F73060 /* MapView_ViewModel.swift */,
+				5EFE01CF29E2FCAB0085237D /* AnimatedBusProgress.swift */,
+				5EFD94BC29D98D5700D4220C /* FetchEmtDataToken_Protocol.swift */,
+				5EFD94C429DA95E900D4220C /* NearestStopRow.swift */,
+				5EBCE7BE2A0904FF00E6915C /* Color_EXT.swift */,
+				5EFD952C29DC1AE200D4220C /* IntUtils.swift */,
+				5EFD952A29DC023D00D4220C /* BusStopDetailViewModel.swift */,
+				5EFD952829DC001300D4220C /* BusStopDetails.swift */,
+				5EFD94C229D9EE2700D4220C /* FetchNearestStop.swift */,
+				5EFD94C029D9AD6700D4220C /* LocationService.swift */,
 				5EFD94B229D98C5800D4220C /* Assets.xcassets */,
 				5EFD94B429D98C5800D4220C /* Preview Content */,
 			);
@@ -67,6 +139,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5EFD94CB29DB3B2200D4220C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EFD94CC29DB3B2200D4220C /* WidgetKit.framework */,
+				5EFD94CE29DB3B2200D4220C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EFD951A29DB3DCD00D4220C /* MyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5EFD951B29DB3DCD00D4220C /* MyWidgetBundle.swift */,
+				5EFD951D29DB3DCD00D4220C /* MyWidget.swift */,
+				5EFD951F29DB3DD000D4220C /* Assets.xcassets */,
+				5EFD952129DB3DD000D4220C /* Info.plist */,
+			);
+			path = MyWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +169,7 @@
 				5EFD94A729D98C5600D4220C /* Sources */,
 				5EFD94A829D98C5600D4220C /* Frameworks */,
 				5EFD94A929D98C5600D4220C /* Resources */,
+				5EFD94E329DB3B2600D4220C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -137,8 +230,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EFD94BD29D98D5700D4220C /* FetchEmtDataToken_Protocol.swift in Sources */,
 				5EFD94B129D98C5600D4220C /* ContentView.swift in Sources */,
-				5EFD94AF29D98C5600D4220C /* Weaver_Widget_DemoApp.swift in Sources */,
+				5EFE01CA29E0A6B40085237D /* FavouriteView.swift in Sources */,
+				5EFD952D29DC1AE200D4220C /* IntUtils.swift in Sources */,
+				5EFD94C329D9EE2700D4220C /* FetchNearestStop.swift in Sources */,
+				5EBCE7BF2A0904FF00E6915C /* Color_EXT.swift in Sources */,
+				5EFE01CE29E2FAF30085237D /* Lines.swift in Sources */,
+				5EFE01D029E2FCAB0085237D /* AnimatedBusProgress.swift in Sources */,
+				5E14FF522A0A394900F73060 /* MapView.swift in Sources */,
+				5EFD94C129D9AD6700D4220C /* LocationService.swift in Sources */,
+				5EBCE7C12A09186300E6915C /* Text_EXT.swift in Sources */,
+				5E14FF5A2A0FE09300F73060 /* NetworkUtils.swift in Sources */,
+				5EFE01CC29E1D6BF0085237D /* MainView.swift in Sources */,
+				5EFD94C529DA95E900D4220C /* NearestStopRow.swift in Sources */,
+				5E14FF5F2A0FF59500F73060 /* PersistenceController.swift in Sources */,
+				5EFD952B29DC023D00D4220C /* BusStopDetailViewModel.swift in Sources */,
+				5EFD952929DC001300D4220C /* BusStopDetails.swift in Sources */,
+				5E14FF582A0FD68500F73060 /* Lines_ViewModel.swift in Sources */,
+				5E14FF542A0A44A400F73060 /* MapView_ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,19 +372,25 @@
 		5EFD94BA29D98C5800D4220C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weaver_Widget_Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = THN4KGR2M6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Travel MAD";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is shared to determing the nearest stop";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is shared to determine the nearest stop";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +398,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Weaver.Weaver-Widget-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,19 +408,25 @@
 		5EFD94BB29D98C5800D4220C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weaver_Widget_Demo/Preview Content\"";
 				DEVELOPMENT_TEAM = THN4KGR2M6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Travel MAD";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Your location is shared to determing the nearest stop";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is shared to determine the nearest stop";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +434,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Weaver.Weaver-Widget-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

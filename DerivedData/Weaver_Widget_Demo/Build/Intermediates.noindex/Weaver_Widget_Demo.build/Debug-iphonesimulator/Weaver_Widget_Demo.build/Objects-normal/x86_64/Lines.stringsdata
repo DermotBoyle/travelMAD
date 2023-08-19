@@ -1,0 +1,16 @@
+{
+  "source": "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo/Lines.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Search for stop"
+      },
+      {
+        "comment": "",
+        "key": "Search by street or stop id"
+      }
+    ]
+  },
+  "version": 1
+}

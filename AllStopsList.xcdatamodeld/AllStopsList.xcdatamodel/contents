@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21754" systemVersion="22E252" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AllStops" representedClassName="AllStops" isAbstract="YES" syncable="YES">
+        <attribute name="geometry" optional="YES" attributeType="Transformable" customClassName=" .[GeometryData]"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="lines" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="node" optional="YES" attributeType="String"/>
+        <attribute name="wifi" optional="YES" attributeType="String"/>
+    </entity>
+</model>

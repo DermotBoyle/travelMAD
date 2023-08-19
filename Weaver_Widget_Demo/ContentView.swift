@@ -8,14 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var nearestStops = FetchNearestStop()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack(alignment: .leading){
+                HStack{
+                    Image("MadronoLogo")
+                        .renderingMode(.template)
+                        .resizable()
+                        .frame(width: 36, height: 36)
+                        .foregroundColor(.white)
+                    Text("Travel MAD")
+                        .foregroundColor(Color.white)
+                        .bold()
+                }.background(Color("BackgroundHeader"))
+                    .padding(.horizontal, 24)
+                List {
+                 
+                    ForEach(nearestStops.nearestStopsData) { stop in
+                        NearestStopRow(stop: stop)
+                            .listRowSeparator(.hidden)
+                            .listRowBackground(Color("Background"))
+                    }
+                }.listStyle(.plain)
+                
+            }.background(Color("BackgroundHeader"))
+            .onAppear {
+                nearestStops.getNearestStopData()
+            }
         }
-        .padding()
     }
 }
 

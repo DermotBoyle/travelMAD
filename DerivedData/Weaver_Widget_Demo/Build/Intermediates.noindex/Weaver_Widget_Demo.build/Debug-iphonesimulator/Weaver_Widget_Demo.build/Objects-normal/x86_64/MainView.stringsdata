@@ -1,0 +1,20 @@
+{
+  "source": "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo/MainView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Stops"
+      },
+      {
+        "comment": "",
+        "key": "Lines"
+      },
+      {
+        "comment": "",
+        "key": "Favourites"
+      }
+    ]
+  },
+  "version": 1
+}

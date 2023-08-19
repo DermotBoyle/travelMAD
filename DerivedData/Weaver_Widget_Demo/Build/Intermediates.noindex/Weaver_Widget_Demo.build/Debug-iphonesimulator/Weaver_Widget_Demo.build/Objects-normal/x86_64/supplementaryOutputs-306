@@ -1,0 +1,15 @@
+"/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo/IntUtils.swift":
+  dependencies: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/IntUtils.d"
+  object: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/IntUtils.o"
+  diagnostics: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/IntUtils.dia"
+  swift-dependencies: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/IntUtils.swiftdeps"
+"/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo/FetchNearestStop.swift":
+  diagnostics: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/FetchNearestStop.dia"
+  dependencies: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/FetchNearestStop.d"
+  object: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/FetchNearestStop.o"
+  swift-dependencies: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/FetchNearestStop.swiftdeps"
+"/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo/Color_EXT.swift":
+  object: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/Color_EXT.o"
+  diagnostics: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/Color_EXT.dia"
+  swift-dependencies: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/Color_EXT.swiftdeps"
+  dependencies: "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/Weaver_Widget_Demo.build/Debug-iphonesimulator/Weaver_Widget_Demo.build/Objects-normal/x86_64/Color_EXT.d"

@@ -1,0 +1,26 @@
+{
+  "images" : [
+    {
+      "filename" : "the-bear-and-the-madrono-tree-spain-svgrepo-com.svg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "the-bear-and-the-madrono-tree-spain-svgrepo-com 2.svg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "the-bear-and-the-madrono-tree-spain-svgrepo-com 1.svg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
+  }
+}

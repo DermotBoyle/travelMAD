@@ -1,0 +1,16 @@
+{
+  "source": "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo/NearestStopRow.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@"
+      },
+      {
+        "comment": "",
+        "key": "Lines:"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,61 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildAndRun"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "8b2f4e2dc9acaff268be18a637e948a0db75527983541e2e72ae7feb84cab9f4"
+    }
+  ],
+  "containerPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Products",
+      "derivedDataPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/DerivedData/Weaver_Widget_Demo/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone15,3",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "16.4",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,3",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "B4D9F9EB-3EFC-405D-B9CC-92BBBF8027E8",
+          "TARGET_DEVICE_MODEL" : "iPhone15,3",
+          "TARGET_DEVICE_OS_VERSION" : "16.4",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,24 @@
+{
+  "source": "/Users/dermotboyle/Desktop/Weaver_Widget_Demo/Weaver_Widget_Demo/BusStopDetails.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "To: %@"
+      },
+      {
+        "comment": "",
+        "key": "Bus line %@"
+      },
+      {
+        "comment": "",
+        "key": "Distance from stop %@ km"
+      },
+      {
+        "comment": "",
+        "key": "Arrives in %lld min"
+      }
+    ]
+  },
+  "version": 1
+}
